@@ -70,7 +70,7 @@ namespace ApiBiblioteca.Controllers
         }
 
         // Peticion POST para Insert en Base de Datos
-        // https://apibiblioteca.azurewebsites.net/biblioteca/InsertarLibro/
+        // https://apibiblioteca.azurewebsites.net/biblioteca/
         [HttpPost]
         public void InsertarLibro(Biblioteca biblioteca)
         {
@@ -80,7 +80,7 @@ namespace ApiBiblioteca.Controllers
         }
 
         // Peticion PUT para Modificar en Base de Datos
-        // https://apibiblioteca.azurewebsites.net/biblioteca/ModificarLibro/
+        // https://apibiblioteca.azurewebsites.net/biblioteca/
         [HttpPut]
         public void ModificarDepartamento(Biblioteca biblioteca)
         {
@@ -89,7 +89,7 @@ namespace ApiBiblioteca.Controllers
         }
 
         // Peticion DELETE para Borrar en Base de Datos
-        // https://apibiblioteca.azurewebsites.net/biblioteca/EliminarLibro/
+        // https://apibiblioteca.azurewebsites.net/biblioteca/
         [HttpDelete("{id}")]
         public void EliminarLibro(int id)
         {
